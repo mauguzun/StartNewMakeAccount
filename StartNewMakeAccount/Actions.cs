@@ -36,7 +36,7 @@ namespace StartNewMakeAccount
 
         protected string password = $"trance{DateTime.Now.ToString("yyyyMMdd").ToString()}";
 
-        public Steps(ChromeDriver driver , DataProvider emailProvider)
+        public Steps(ChromeDriver driver, DataProvider emailProvider)
         {
             this.driver = driver;
             this.emailProvider = emailProvider;
@@ -49,7 +49,7 @@ namespace StartNewMakeAccount
 
         public bool MakeLogin()
         {
-           
+
             try
             {
                 var random = new Random();
@@ -62,7 +62,24 @@ namespace StartNewMakeAccount
 
                 string current_name = name[new Random().Next(0, 3000)];
 
-                driver.Url = "http://pinterest.com/logout";
+                driver.Url = "http://pinterest.com";
+
+
+                var buttons = driver.FindElementsByCssSelector("button");
+                if (buttons.Count() > 0)
+                {
+                    foreach (var item in buttons)
+                    {
+                        if (item.Text.Contains("Sign"))
+                        {
+                            item.Click();
+
+                            break;
+                        }
+
+                    }
+                }
+
                 driver.FindElementByXPath("//input[@name='id']").SendKeys(email);
                 driver.FindElementByXPath("//input[@name='password']").SendKeys(password);
 
@@ -86,20 +103,34 @@ namespace StartNewMakeAccount
             }
             finally
             {
-               
-              
+
+
             }
 
         }
 
         public void CheckPage()
         {
+
+
+            if (driver.FindElementsByCssSelector(".NuxExtensionUpsell__optionalSkip").Count != 0)
+            {
+                try
+                {
+                    driver.FindElementByCssSelector(".NuxExtensionUpsell__optionalSkip").Click();
+                }
+                catch
+                {
+
+                }
+            }
+
             if (!gender && driver.FindElementsByCssSelector(".NuxGenderStep__headerContent").Count == 1)
             {
                 var buttons = driver.FindElementsByTagName("button");
                 foreach (var item in buttons)
                 {
-                    if(item.Text.ToLower().Contains("female"))
+                    if (item.Text.ToLower().Contains("female"))
                     {
                         item.Click();
                     }
@@ -301,7 +332,7 @@ namespace StartNewMakeAccount
                     string userName = prettyName + new Random().Next();
                     driver.FindElementById("userUserName").SendKeys(userName);
 
-                  //  string userName = driver.FindElementById("userUserName").GetAttribute("value");
+                    //  string userName = driver.FindElementById("userUserName").GetAttribute("value");
 
                     //malmopianoilianaruby
                     SaveSettings();
@@ -342,7 +373,7 @@ namespace StartNewMakeAccount
 
                         }
                     }
-                   
+
 
 
 
@@ -417,9 +448,9 @@ namespace StartNewMakeAccount
 
         private string PrettyName()
         {
-            string prettyName =  name[new Random().Next(0, 3000)];
-            string res =  prettyName.ToLower().Trim();
-            return  new CultureInfo("en-US").TextInfo.ToTitleCase(res);
+            string prettyName = name[new Random().Next(0, 3000)];
+            string res = prettyName.ToLower().Trim();
+            return new CultureInfo("en-US").TextInfo.ToTitleCase(res);
 
 
         }
