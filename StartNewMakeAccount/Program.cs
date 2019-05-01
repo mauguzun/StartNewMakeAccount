@@ -62,15 +62,27 @@ namespace StartNewMakeAccount
                 ChromeDriver driver = new ChromeDriver(option);
 
                 // driver.Manage().Timeouts().PageLoad = new TimeSpan(0, 0, 0);
-                driver.Manage().Timeouts().ImplicitWait = new TimeSpan(0, 1, 30);
+                driver.Manage().Timeouts().ImplicitWait = new TimeSpan(0, 0, 30);
 
-                var emailProvider = new ReadEmailFromList();
+                var emailProvider = new GenerateEmail();
                 Steps ac = new Steps(driver, emailProvider);
+
+                int actions = 0;
                 if (ac.MakeLogin())
                 {
-                    while (ac.Settings() != true)
+                    while (ac.Settings() != true && actions < 7)
                     {
-                        ac.CheckPage();
+                        try
+                        {
+                            ac.CheckPage();
+                        }
+                        catch { }
+                        finally
+                        {
+                            actions++;
+
+                        }
+                        Console.WriteLine(actions + "action number ");
 
                     }
                     driver.Quit();

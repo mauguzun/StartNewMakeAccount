@@ -10,6 +10,7 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using System.Xml.Serialization;
 
 namespace StartNewMakeAccount
 {
@@ -25,19 +26,25 @@ namespace StartNewMakeAccount
         private bool main = false;
         private bool settings = false;
         private bool url = false;
+        private bool welcome = false;
+        private bool skip = false;
 
         private string email;
 
         private string prettyName;
         static string currentEmail;
 
-
+        public string path = "data";
         protected string[] name;
 
         protected string password = $"trance{DateTime.Now.ToString("yyyyMMdd").ToString()}";
 
         public Steps(ChromeDriver driver, DataProvider emailProvider)
         {
+            if (!Directory.Exists(this.path))
+            {
+                Directory.CreateDirectory(path);
+            }
             this.driver = driver;
             this.emailProvider = emailProvider;
         }
@@ -58,7 +65,7 @@ namespace StartNewMakeAccount
 
                 prettyName = PrettyName();
 
-                email = emailProvider.GetString(null);
+                email = emailProvider.GetString(prettyName);
 
                 string current_name = name[new Random().Next(0, 3000)];
 
@@ -92,7 +99,7 @@ namespace StartNewMakeAccount
                 driver.Manage().Timeouts().ImplicitWait = new TimeSpan(0, 0, 55);
                 driver.FindElementByCssSelector("button.red").Click();
 
-                File.AppendAllText(DateTime.Now.ToString("yyyyMMdd") + ".txt", $"{email}:{password}{Environment.NewLine}");
+                File.AppendAllText( path +"/" + DateTime.Now.ToString("yyyyMMdd") + ".txt", $"{email}:{password}{Environment.NewLine}");
 
                 return true;
             }
@@ -101,65 +108,70 @@ namespace StartNewMakeAccount
                 Console.WriteLine(ex.Message);
                 return false;
             }
-            finally
-            {
 
-
-            }
 
         }
 
         public void CheckPage()
         {
-
-
-            if (driver.FindElementsByCssSelector(".NuxExtensionUpsell__optionalSkip").Count != 0)
+            //
+            if (!welcome && driver.FindElementsByCssSelector("div[data-test-id='nux_name_done_btn']").Count != 0)
             {
                 try
                 {
-                    driver.FindElementByCssSelector(".NuxExtensionUpsell__optionalSkip").Click();
+                    driver.FindElementByCssSelector("div[data-test-id='nux_name_done_btn']").Click();
+                    Console.WriteLine("press next");
+                    welcome = true;
+                    return;
+
                 }
                 catch
                 {
-
+                    return;
                 }
-            }
 
-            if (!gender && driver.FindElementsByCssSelector(".NuxGenderStep__headerContent").Count == 1)
+            }
+            if (!skip && driver.FindElementsByCssSelector("button[data-test-id='nux-ext-skip-btn']").Count != 0)
             {
-                var buttons = driver.FindElementsByTagName("button");
-                foreach (var item in buttons)
+                try
                 {
-                    if (item.Text.ToLower().Contains("female"))
-                    {
-                        item.Click();
-                    }
+                    driver.FindElementByCssSelector("button[data-test-id='nux-ext-skip-btn']").Click();
+                    Console.WriteLine("press skip");
+                    skip = true;
+                    return;
                 }
-                //Female
+                catch
+                {
+                    return;
+
+                }
+
             }
+
+            //if (welcome && !gender && driver.FindElementsByCssSelector(".NuxGenderStep__headerContent").Count == 1)
+            //{
+            //    var buttons = driver.FindElementsByTagName("button");
+            //    foreach (var item in buttons)
+            //    {
+            //        if (item.Text.ToLower().Contains("female"))
+            //        {
+            //            item.Click();
+            //        }
+            //    }
+            //    //Female
+            //}
             if (!gender && driver.FindElementsByCssSelector("label[for='female']").Count == 1)
             {
                 try
                 {
                     var x = driver.FindElementsByCssSelector("label[for='female']");
                     x[0].Click();
-                    gender = true;
+                    gender = true; return;
                 }
-                catch { }
+                catch { return; }
+              
 
             }
-            if (!gender && driver.FindElementsById("female") != null)
-            {
-                try
-                {
-                    driver.FindElementById("female").Click();
-                    gender = true;
-                }
-                catch { }
-
-
-            }
-
 
 
             if (!country && driver.FindElementById("newUserCountry") != null)
@@ -167,9 +179,10 @@ namespace StartNewMakeAccount
                 try
                 {
                     driver.FindElementByCssSelector(".NuxContainer__NuxStepContainer button").Click();
-                    country = true;
+                    country = true; return;
                 }
-                catch { }
+                catch { return; }
+               
             }
 
             if (!country && driver.FindElementByCssSelector(".NuxContainer__NuxStepContainer button") != null)
@@ -177,9 +190,9 @@ namespace StartNewMakeAccount
                 try
                 {
                     driver.FindElementByCssSelector(".NuxContainer__NuxStepContainer button").Click();
-                    country = true;
+                    country = true; return;
                 }
-                catch { }
+                catch { return; }
             }
             if (!card && driver.FindElementsByCssSelector(".NuxInterest").Count > 1)
             {
@@ -219,13 +232,15 @@ namespace StartNewMakeAccount
                             {
                                 Console.WriteLine("not possible");
                             }
+                             return;
                         }
                         catch (Exception ex)
                         {
                             Console.WriteLine(ex.Message);
                             cards = driver.FindElementsByCssSelector(".NuxInterest");
+                            return;
                         }
-
+                       
                     }
 
                 }
@@ -240,10 +255,10 @@ namespace StartNewMakeAccount
                     var scripButton = driver.FindElementsByCssSelector(".NuxExtensionUpsell__optionalSkip");
                     scripButton[0].Click();
                     scip = true;
-
+                    return;
                 }
                 catch
-                { }
+                { return; }
             }
 
 
@@ -280,11 +295,11 @@ namespace StartNewMakeAccount
                     driver.Url = "https://www.pinterest.com/";
                     Thread.Sleep(TimeSpan.FromSeconds(15));
 
-                    main = true;
+                    main = true; return;
                 }
                 catch
                 {
-
+                    return;
                 }
             }
 
@@ -299,7 +314,7 @@ namespace StartNewMakeAccount
 
                     driver.Url = "https://pinterest.com/settings";
 
-
+                   
                 }
                 catch
                 {
@@ -310,37 +325,41 @@ namespace StartNewMakeAccount
 
             if (url && !settings)
             {
+
+                Save();
                 try
                 {
                     for (int i = 0; i < 50; i++)
                     {
-                        driver.FindElementById("userFirstName").SendKeys(Keys.Backspace);
-                        driver.FindElementById("userLastName").SendKeys(Keys.Backspace);
-                        driver.FindElementById("userUserName").SendKeys(Keys.Backspace);
+                        driver.FindElementById("first_name").SendKeys(Keys.Backspace);
+                        driver.FindElementById("last_name").SendKeys(Keys.Backspace);
+                        driver.FindElementById("username").SendKeys(Keys.Backspace);
                     }
-                    var selectElement = new SelectElement(driver.FindElementById("accountBasicsCountry"));
-                    selectElement.SelectByValue("US");
+                    //var selectElement = new SelectElement(driver.FindElementById("accountBasicsCountry"));
+                    //selectElement.SelectByValue("US");
 
 
-                    driver.FindElementById("userFirstName").SendKeys(PrettyName());
-                    driver.FindElementById("userLastName").SendKeys(PrettyName());
+                    driver.FindElementById("first_name").SendKeys(PrettyName());
+                    driver.FindElementById("last_name").SendKeys(PrettyName());
 
                     string[] cities = File.ReadAllLines("city_names.txt");
-                    driver.FindElementById("userLocation").SendKeys(cities[new Random().Next(0, cities.Count())]);
+                    driver.FindElementById("location").SendKeys(cities[new Random().Next(0, cities.Count())]);
 
 
                     string userName = prettyName + new Random().Next();
-                    driver.FindElementById("userUserName").SendKeys(userName);
+                    driver.FindElementById("username").SendKeys(userName);
 
                     //  string userName = driver.FindElementById("userUserName").GetAttribute("value");
 
                     //malmopianoilianaruby
                     SaveSettings();
+                 
                     settings = true;
+                    return;
                     //$$("input[type=file]")
                     Thread.Sleep(new TimeSpan(0, 0, 5));
 
-
+                    driver.Quit();
 
                     //data-test-id="createBoardCard"
                     // tut
@@ -434,12 +453,70 @@ namespace StartNewMakeAccount
             }
         }
 
+        public void Save()
+        {
+            var xs = driver.Manage().Cookies.GetCookieNamed("_auth");
+
+
+          
+                var cookies = driver.Manage().Cookies.AllCookies;
+
+                List<DCookie> listDc = new List<DCookie>();
+                foreach (OpenQA.Selenium.Cookie cookie in cookies)
+                {
+                    //_auth=1
+                    var dCookie = new DCookie();
+                    dCookie.Domain = cookie.Domain;
+                    dCookie.Expiry = cookie.Expiry;
+                    dCookie.Name = cookie.Name;
+                    dCookie.Path = cookie.Path;
+                    dCookie.Value = cookie.Value;
+                    dCookie.Secure = cookie.Secure;
+
+                    listDc.Add(dCookie);
+                }
+                XmlSerializer ser = new XmlSerializer(typeof(List<DCookie>),
+                new XmlRootAttribute("list"));
+
+                char[] invalidFileNameChars = Path.GetInvalidFileNameChars();
+
+                // Builds a string out of valid chars and an _ for invalid ones
+                var validFilename = new string(email.Select(ch => invalidFileNameChars.Contains(ch) ? '_' : ch).ToArray());
+
+                using (FileStream fs = new FileStream(path + "/" + validFilename, FileMode.Create))
+                {
+                    ser.Serialize(fs, listDc);
+                }
+           
+        }
+
+        private void Load(string filename)
+        {
+            driver.Url = "http://pinterest.com";
+            List<DCookie> dCookie;
+            using (var reader = new StreamReader(path + filename))
+            {
+                XmlSerializer deserializer = new XmlSerializer(typeof(List<DCookie>),
+                    new XmlRootAttribute("list"));
+                dCookie = (List<DCookie>)deserializer.Deserialize(reader);
+            }
+
+            foreach (var cookie in dCookie)
+            {
+                driver.Manage().Cookies.AddCookie(cookie.GetCookie());
+            }
+
+            driver.Url = "http://pinterest.com";
+
+
+        }
+
         private bool SaveSettings()
         {
             var buttons = driver.FindElementsByTagName("button");
             foreach (IWebElement button in buttons)
             {
-                if (button.Text.Contains("Save"))
+                if (button.Text.Contains("Done"))
                     button.Click();
             }
 

@@ -1,0 +1,509 @@
+[0416/212815.172:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0416/212815.447:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0416/212815.448:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0416/212815.449:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0416/212815.450:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0416/212815.450:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0416/212815.455:ERROR:exception_snapshot_win.cc(98)] thread ID 26200 not found in process
+[0417/082600.089:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0417/082600.662:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0417/082600.662:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0417/082600.662:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0417/082600.662:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0417/082600.662:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0417/082600.663:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0417/082600.663:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0417/082600.734:ERROR:exception_snapshot_win.cc(98)] thread ID 16536 not found in process
+[0417/082601.562:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0417/082601.566:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0417/082601.566:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0417/082601.566:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0417/082601.566:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0417/082601.566:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0417/082601.567:ERROR:exception_snapshot_win.cc(98)] thread ID 14704 not found in process
+[0417/082602.029:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0417/082602.030:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0417/082602.030:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0417/082602.030:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0417/082602.030:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0417/082602.030:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0417/082602.030:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0417/082602.030:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0417/082602.031:ERROR:exception_snapshot_win.cc(98)] thread ID 13956 not found in process
+[0417/082602.094:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0417/082602.095:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0417/082602.095:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0417/082602.095:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0417/082602.095:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0417/082602.095:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0417/082602.096:ERROR:exception_snapshot_win.cc(98)] thread ID 12604 not found in process
+[0417/082602.227:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0417/082602.228:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0417/082602.228:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0417/082602.228:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0417/082602.228:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0417/082602.228:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0417/082602.228:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0417/082602.229:ERROR:exception_snapshot_win.cc(98)] thread ID 17472 not found in process
+[0417/082602.287:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0417/082602.288:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0417/082602.288:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0417/082602.288:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0417/082602.288:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0417/082602.289:ERROR:exception_snapshot_win.cc(98)] thread ID 17536 not found in process
+[0417/133946.422:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0417/133946.425:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0417/133946.425:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0417/133946.426:ERROR:exception_snapshot_win.cc(98)] thread ID 1176 not found in process
+[0417/232410.753:ERROR:file_io_win.cc(161)] CreateFile C:\Users\mauguzun\AppData\Local\Temp\scoped_dir37208_22737\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0417/232410.755:ERROR:file_io_win.cc(170)] CreateFile C:\Users\mauguzun\AppData\Local\Temp\scoped_dir37208_22737\Crashpad\reports\f3320e06-cdc0-432e-8c3c-8ab8633426af.dmp: The system cannot find the path specified. (0x3)
+[0417/232410.755:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[0418/072343.257:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0418/072343.259:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0418/072343.259:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0418/072343.259:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0418/072343.259:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0418/072343.259:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0418/072343.259:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0418/072343.259:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0418/072343.261:ERROR:exception_snapshot_win.cc(98)] thread ID 46152 not found in process
+[0418/093901.535:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0418/110415.707:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0418/110415.709:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0418/110415.709:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0418/110415.709:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0418/110415.709:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0418/110415.709:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0418/110415.709:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0418/110415.710:ERROR:exception_snapshot_win.cc(98)] thread ID 72424 not found in process
+[0419/001531.709:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0419/001531.715:ERROR:exception_snapshot_win.cc(98)] thread ID 7392 not found in process
+[0419/001531.715:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: An attempt was made to access an exiting process. (0xc000010a)
+[0419/041514.671:ERROR:file_io_win.cc(161)] CreateFile C:\Users\mauguzun\AppData\Local\Temp\scoped_dir19200_23856\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0419/041514.672:ERROR:file_io_win.cc(170)] CreateFile C:\Users\mauguzun\AppData\Local\Temp\scoped_dir19200_23856\Crashpad\reports\df4dd8a1-f5e7-4600-8039-850c0568c90f.dmp: The system cannot find the path specified. (0x3)
+[0419/041514.672:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[0419/070343.821:ERROR:process_info.cc(329)] VirtualQueryEx: Access is denied. (0x5)
+[0419/070343.822:ERROR:process_info.cc(550)] ReadMemoryInfo failed
+[0419/070343.822:ERROR:process_memory_win.cc(39)] Failed to initialize ProcessInfo.
+[0419/070343.822:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: An attempt was made to access an exiting process. (0xc000010a)
+[0419/074435.169:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0419/074435.170:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0419/074435.170:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0419/074435.170:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0419/074435.170:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0419/074435.170:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0419/074435.170:ERROR:exception_snapshot_win.cc(98)] thread ID 16832 not found in process
+[0419/074435.176:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0419/074435.177:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0419/074435.177:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0419/074435.177:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0419/074435.177:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0419/074435.178:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0419/074435.178:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0419/074435.178:ERROR:exception_snapshot_win.cc(98)] thread ID 4404 not found in process
+[0419/074435.339:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0419/074435.340:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0419/074435.340:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0419/074435.340:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0419/074435.340:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0419/074435.341:ERROR:exception_snapshot_win.cc(98)] thread ID 20712 not found in process
+[0419/074435.519:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0419/074435.520:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0419/074435.520:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0419/074435.520:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0419/074435.520:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0419/074435.520:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0419/074435.521:ERROR:exception_snapshot_win.cc(98)] thread ID 4056 not found in process
+[0419/232901.980:ERROR:file_io_win.cc(161)] CreateFile C:\Users\mauguzun\AppData\Local\Temp\scoped_dir12604_4692\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0419/232901.981:ERROR:file_io_win.cc(170)] CreateFile C:\Users\mauguzun\AppData\Local\Temp\scoped_dir12604_4692\Crashpad\reports\18c8949f-0899-4fe8-bf3b-2e25352842ef.dmp: The system cannot find the path specified. (0x3)
+[0419/232901.981:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[0420/052532.836:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0420/052532.836:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0420/052532.836:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0420/052532.836:ERROR:exception_snapshot_win.cc(98)] thread ID 18744 not found in process
+[0420/085044.865:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0420/085044.867:ERROR:exception_snapshot_win.cc(98)] thread ID 13656 not found in process
+[0420/085045.104:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0420/085045.104:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0420/085045.104:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0420/085045.104:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0420/085045.104:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0420/085045.104:ERROR:exception_snapshot_win.cc(98)] thread ID 25652 not found in process
+[0420/085045.197:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0420/085045.197:ERROR:exception_snapshot_win.cc(98)] thread ID 23628 not found in process
+[0420/085045.338:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0420/085045.338:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0420/085045.338:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0420/085045.338:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0420/085045.338:ERROR:exception_snapshot_win.cc(98)] thread ID 28792 not found in process
+[0421/071028.963:ERROR:file_io_win.cc(161)] CreateFile C:\Users\mauguzun\AppData\Local\Temp\scoped_dir23868_7077\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0421/071028.965:ERROR:file_io_win.cc(170)] CreateFile C:\Users\mauguzun\AppData\Local\Temp\scoped_dir23868_7077\Crashpad\reports\0383a387-af59-40e8-92af-f41083519d84.dmp: The system cannot find the path specified. (0x3)
+[0421/071028.965:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[0421/092328.832:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0421/092328.835:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0421/092328.835:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0421/092328.835:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0421/092328.835:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0421/092328.835:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0421/092328.835:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0421/092328.835:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0421/092328.835:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0421/092328.835:ERROR:exception_snapshot_win.cc(98)] thread ID 30160 not found in process
+[0421/092329.040:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0421/092329.041:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0421/092329.041:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0421/092329.041:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0421/092329.042:ERROR:exception_snapshot_win.cc(98)] thread ID 11900 not found in process
+[0421/092329.392:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0421/092329.394:ERROR:exception_snapshot_win.cc(98)] thread ID 32576 not found in process
+[0421/092329.627:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0421/092329.628:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0421/092329.628:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0421/092329.629:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0421/092329.629:ERROR:exception_snapshot_win.cc(98)] thread ID 2908 not found in process
+[0421/092329.859:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0421/092329.860:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0421/092329.860:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0421/092329.860:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0421/092329.860:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0421/092329.860:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0421/092329.861:ERROR:exception_snapshot_win.cc(98)] thread ID 18532 not found in process
+[0421/092329.936:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0421/092329.938:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0421/092329.938:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0421/092329.938:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0421/092329.938:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0421/092329.938:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0421/092329.938:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0421/092329.938:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0421/092329.938:ERROR:exception_snapshot_win.cc(98)] thread ID 17184 not found in process
+[0421/151340.988:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0421/151340.990:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0421/151340.990:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0421/151340.990:ERROR:exception_snapshot_win.cc(98)] thread ID 7660 not found in process
+[0421/161918.245:ERROR:file_io_win.cc(161)] CreateFile C:\Users\mauguzun\AppData\Local\Temp\scoped_dir8584_24886\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0421/161918.247:ERROR:file_io_win.cc(170)] CreateFile C:\Users\mauguzun\AppData\Local\Temp\scoped_dir8584_24886\Crashpad\reports\982a12de-8fbf-4572-a543-8dafb849c191.dmp: The system cannot find the path specified. (0x3)
+[0421/161918.247:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[0421/171137.408:ERROR:process_info.cc(329)] VirtualQueryEx: Access is denied. (0x5)
+[0421/171137.409:ERROR:process_info.cc(550)] ReadMemoryInfo failed
+[0421/171137.409:ERROR:process_memory_win.cc(39)] Failed to initialize ProcessInfo.
+[0421/171137.409:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: An attempt was made to access an exiting process. (0xc000010a)
+[0421/224803.492:ERROR:process_info.cc(329)] VirtualQueryEx: Access is denied. (0x5)
+[0421/224803.497:ERROR:process_info.cc(550)] ReadMemoryInfo failed
+[0421/224803.497:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: An attempt was made to access an exiting process. (0xc000010a)
+[0421/224902.120:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0421/224902.122:ERROR:exception_snapshot_win.cc(98)] thread ID 13804 not found in process
+[0422/020814.875:ERROR:file_io_win.cc(170)] CreateFile C:\Users\mauguzun\AppData\Local\Temp\scoped_dir10452_28352\Crashpad\reports\45f20d8d-eb61-4fb2-a587-82cb6d267038.dmp: The system cannot find the path specified. (0x3)
+[0422/020814.877:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[0422/060024.635:ERROR:file_io_win.cc(161)] CreateFile C:\Users\mauguzun\AppData\Local\Temp\scoped_dir9264_14070\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0422/060024.636:ERROR:file_io_win.cc(170)] CreateFile C:\Users\mauguzun\AppData\Local\Temp\scoped_dir9264_14070\Crashpad\reports\b60a898b-6b42-4999-a3e2-484d836be9f9.dmp: The system cannot find the path specified. (0x3)
+[0422/060024.636:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[0422/101521.359:ERROR:file_io_win.cc(161)] CreateFile C:\Users\mauguzun\AppData\Local\Temp\scoped_dir5744_24076\Crashpad\settings.dat: The system cannot find the file specified. (0x2)
+[0423/000752.628:ERROR:file_io_win.cc(161)] CreateFile C:\Users\mauguzun\AppData\Local\Temp\scoped_dir3168_12557\Crashpad\settings.dat: The system cannot find the file specified. (0x2)
+[0423/001013.509:ERROR:file_io_win.cc(161)] CreateFile C:\Users\mauguzun\AppData\Local\Temp\scoped_dir6248_26524\Crashpad\settings.dat: The system cannot find the file specified. (0x2)
+[0423/014610.368:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0423/014610.369:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0423/014610.369:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0423/014610.369:ERROR:exception_snapshot_win.cc(98)] thread ID 12276 not found in process
+[0423/015618.997:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0423/015618.998:ERROR:exception_snapshot_win.cc(98)] thread ID 4484 not found in process
+[0423/015618.999:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: An attempt was made to access an exiting process. (0xc000010a)
+[0423/042704.904:ERROR:process_info.cc(329)] VirtualQueryEx: Access is denied. (0x5)
+[0423/042704.905:ERROR:process_info.cc(550)] ReadMemoryInfo failed
+[0423/042704.905:ERROR:process_memory_win.cc(39)] Failed to initialize ProcessInfo.
+[0423/042704.905:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: An attempt was made to access an exiting process. (0xc000010a)
+[0423/053237.921:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0423/053237.922:ERROR:exception_snapshot_win.cc(98)] thread ID 7712 not found in process
+[0423/070720.853:ERROR:file_io_win.cc(161)] CreateFile C:\Users\mauguzun\AppData\Local\Temp\scoped_dir1172_10614\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0423/070720.855:ERROR:file_io_win.cc(170)] CreateFile C:\Users\mauguzun\AppData\Local\Temp\scoped_dir1172_10614\Crashpad\reports\932d5827-3e59-4413-b8b0-1714d3c7f79c.dmp: The system cannot find the path specified. (0x3)
+[0423/070720.855:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[0423/075636.610:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0423/075636.612:ERROR:exception_snapshot_win.cc(98)] thread ID 3088 not found in process
+[0423/075636.772:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0423/075636.774:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0423/075636.774:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0423/075636.774:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0423/075636.774:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0423/075636.774:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0423/075636.774:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0423/075636.774:ERROR:exception_snapshot_win.cc(98)] thread ID 12344 not found in process
+[0424/013847.311:ERROR:file_io_win.cc(161)] CreateFile C:\Users\mauguzun\AppData\Local\Temp\scoped_dir14900_6399\Crashpad\settings.dat: The system cannot find the file specified. (0x2)
+[0424/033631.265:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0424/033631.266:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0424/033631.266:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0424/033631.266:ERROR:exception_snapshot_win.cc(98)] thread ID 11352 not found in process
+[0424/062422.189:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0424/062422.191:ERROR:exception_snapshot_win.cc(98)] thread ID 9460 not found in process
+[0424/073616.880:ERROR:process_info.cc(329)] VirtualQueryEx: Access is denied. (0x5)
+[0424/073616.881:ERROR:process_info.cc(550)] ReadMemoryInfo failed
+[0424/073616.881:ERROR:process_memory_win.cc(39)] Failed to initialize ProcessInfo.
+[0424/073616.881:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: An attempt was made to access an exiting process. (0xc000010a)
+[0424/074336.979:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0424/074336.980:ERROR:exception_snapshot_win.cc(98)] thread ID 14240 not found in process
+[0424/105235.120:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0424/105235.122:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0424/105235.123:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0424/105235.123:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0424/105235.123:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0424/105235.123:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0424/105235.123:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0424/105235.123:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0424/105235.123:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0424/105235.124:ERROR:exception_snapshot_win.cc(98)] thread ID 9604 not found in process
+[0424/105235.149:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0424/105235.151:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0424/105235.151:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0424/105235.151:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0424/105235.151:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0424/105235.151:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0424/105235.151:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0424/105235.151:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0424/105235.151:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0424/105235.151:ERROR:exception_snapshot_win.cc(98)] thread ID 7144 not found in process
+[0424/105235.367:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0424/105235.368:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0424/105235.369:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0424/105235.369:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0424/105235.369:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0424/105235.369:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0424/105235.370:ERROR:exception_snapshot_win.cc(98)] thread ID 14500 not found in process
+[0424/105235.420:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0424/105235.423:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0424/105235.423:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0424/105235.423:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0424/105235.423:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0424/105235.423:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0424/105235.423:ERROR:exception_snapshot_win.cc(98)] thread ID 21280 not found in process
+[0424/105235.555:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0424/105235.557:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0424/105235.557:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0424/105235.557:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0424/105235.557:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0424/105235.557:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0424/105235.558:ERROR:exception_snapshot_win.cc(98)] thread ID 21608 not found in process
+[0424/105235.646:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0424/105235.647:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0424/105235.648:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0424/105235.648:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0424/105235.648:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0424/105235.648:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0424/105235.648:ERROR:exception_snapshot_win.cc(98)] thread ID 20528 not found in process
+[0424/105235.715:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0424/105235.716:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0424/105235.716:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0424/105235.717:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0424/105235.717:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0424/105235.717:ERROR:exception_snapshot_win.cc(98)] thread ID 21360 not found in process
+[0424/105235.892:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0424/105235.894:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0424/105235.894:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0424/105235.894:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0424/105235.894:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0424/105235.894:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0424/105235.895:ERROR:exception_snapshot_win.cc(98)] thread ID 21284 not found in process
+[0424/105235.896:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0424/105235.899:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0424/105235.899:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0424/105235.899:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0424/105235.899:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0424/105235.899:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0424/105235.900:ERROR:exception_snapshot_win.cc(98)] thread ID 4732 not found in process
+[0424/105236.057:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0424/105236.059:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0424/105236.063:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0424/105236.063:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0424/105236.063:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0424/105236.074:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0424/105236.074:ERROR:exception_snapshot_win.cc(98)] thread ID 19504 not found in process
+[0424/105236.375:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0424/105236.378:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0424/105236.379:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0424/105236.383:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0424/105236.383:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0424/105236.383:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0424/105236.384:ERROR:exception_snapshot_win.cc(98)] thread ID 22148 not found in process
+[0424/105236.850:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0424/105236.851:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0424/105236.851:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0424/105236.851:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0424/105236.852:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0424/105236.852:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0424/105236.853:ERROR:exception_snapshot_win.cc(98)] thread ID 19216 not found in process
+[0424/105237.225:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0424/105237.227:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0424/105237.227:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0424/105237.227:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0424/105237.227:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0424/105237.227:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0424/105237.229:ERROR:exception_snapshot_win.cc(98)] thread ID 4780 not found in process
+[0424/105240.886:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0424/105240.888:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0424/105240.888:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0424/105240.888:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0424/105240.888:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0424/105240.888:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0424/105240.889:ERROR:exception_snapshot_win.cc(98)] thread ID 8876 not found in process
+[0424/105241.638:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0424/105241.640:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0424/105241.640:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0424/105241.641:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0424/105241.641:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0424/105241.641:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0424/105241.641:ERROR:exception_snapshot_win.cc(98)] thread ID 7024 not found in process
+[0424/105246.891:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0424/105246.892:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0424/105246.892:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0424/105246.892:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0424/105246.892:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0424/105246.893:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0424/105246.894:ERROR:exception_snapshot_win.cc(98)] thread ID 11684 not found in process
+[0424/105247.006:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0424/105247.007:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0424/105247.007:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0424/105247.007:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0424/105247.007:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0424/105247.007:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0424/105247.008:ERROR:exception_snapshot_win.cc(98)] thread ID 15912 not found in process
+[0425/050358.621:ERROR:process_info.cc(329)] VirtualQueryEx: Access is denied. (0x5)
+[0425/050358.621:ERROR:process_info.cc(550)] ReadMemoryInfo failed
+[0425/050358.621:ERROR:process_memory_win.cc(39)] Failed to initialize ProcessInfo.
+[0425/050358.621:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: An attempt was made to access an exiting process. (0xc000010a)
+[0425/051757.499:ERROR:file_io_win.cc(161)] CreateFile C:\Users\mauguzun\AppData\Local\Temp\scoped_dir11480_15442\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0425/051757.499:ERROR:file_io_win.cc(170)] CreateFile C:\Users\mauguzun\AppData\Local\Temp\scoped_dir11480_15442\Crashpad\reports\43f28635-172a-4274-961b-a792193d0618.dmp: The system cannot find the path specified. (0x3)
+[0425/051757.499:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[0425/062102.442:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0425/062102.443:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0425/062102.443:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0425/062102.443:ERROR:exception_snapshot_win.cc(98)] thread ID 15668 not found in process
+[0425/063324.066:ERROR:file_io_win.cc(161)] CreateFile C:\Users\mauguzun\AppData\Local\Temp\scoped_dir19616_5143\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0425/063324.067:ERROR:file_io_win.cc(170)] CreateFile C:\Users\mauguzun\AppData\Local\Temp\scoped_dir19616_5143\Crashpad\reports\ace5c221-7fb8-436c-baa1-904bf4f814df.dmp: The system cannot find the path specified. (0x3)
+[0425/063324.067:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[0425/125653.978:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0425/125653.980:ERROR:exception_snapshot_win.cc(98)] thread ID 7304 not found in process
+[0426/042530.565:ERROR:file_io_win.cc(161)] CreateFile C:\Users\mauguzun\AppData\Local\Temp\scoped_dir13520_1551\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0426/042530.568:ERROR:file_io_win.cc(170)] CreateFile C:\Users\mauguzun\AppData\Local\Temp\scoped_dir13520_1551\Crashpad\reports\5aac0e91-730c-4fee-8c9c-1d4d680cf578.dmp: The system cannot find the path specified. (0x3)
+[0426/042530.568:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[0426/065127.254:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0426/065127.477:ERROR:process_reader_win.cc(123)] NtOpenThread: An invalid Client ID was specified. (0xc000000b)
+[0426/065127.479:ERROR:process_reader_win.cc(123)] NtOpenThread: An invalid Client ID was specified. (0xc000000b)
+[0426/065127.479:ERROR:exception_snapshot_win.cc(98)] thread ID 5276 not found in process
+[0426/065127.479:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: An attempt was made to access an exiting process. (0xc000010a)
+[0426/075130.181:ERROR:file_io_win.cc(161)] CreateFile C:\Users\mauguzun\AppData\Local\Temp\scoped_dir2244_25956\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0426/075130.182:ERROR:file_io_win.cc(170)] CreateFile C:\Users\mauguzun\AppData\Local\Temp\scoped_dir2244_25956\Crashpad\reports\c42d3b05-b1b8-4fec-a5bb-7dcdbff52886.dmp: The system cannot find the path specified. (0x3)
+[0426/075130.182:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[0428/153031.113:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0428/153031.370:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0428/153031.370:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0428/153031.370:ERROR:exception_snapshot_win.cc(98)] thread ID 4388 not found in process
+[0428/160140.938:ERROR:file_io_win.cc(161)] CreateFile C:\Users\mauguzun\AppData\Local\Temp\scoped_dir6236_21886\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0428/160140.939:ERROR:file_io_win.cc(170)] CreateFile C:\Users\mauguzun\AppData\Local\Temp\scoped_dir6236_21886\Crashpad\reports\7b516f90-8748-4243-a1dc-c832f1985442.dmp: The system cannot find the path specified. (0x3)
+[0428/160140.939:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[0428/203619.435:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0428/203619.438:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0428/203619.438:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0428/203619.438:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0428/203619.438:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0428/203619.438:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0428/203619.438:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0428/203619.438:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0428/203619.440:ERROR:exception_snapshot_win.cc(98)] thread ID 8476 not found in process
+[0429/222729.600:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0429/222729.604:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0429/222729.604:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0429/222729.604:ERROR:exception_snapshot_win.cc(98)] thread ID 44944 not found in process
+[0429/222835.061:ERROR:process_info.cc(329)] VirtualQueryEx: Access is denied. (0x5)
+[0429/222835.061:ERROR:process_info.cc(550)] ReadMemoryInfo failed
+[0429/222835.061:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: An attempt was made to access an exiting process. (0xc000010a)
+[0430/011923.335:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0430/011923.339:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0430/011923.339:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0430/011923.339:ERROR:exception_snapshot_win.cc(98)] thread ID 32060 not found in process
+[0430/024905.086:ERROR:file_io_win.cc(161)] CreateFile C:\Users\mauguzun\AppData\Local\Temp\scoped_dir52412_15503\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0430/024905.088:ERROR:file_io_win.cc(170)] CreateFile C:\Users\mauguzun\AppData\Local\Temp\scoped_dir52412_15503\Crashpad\reports\2d54f25f-70e1-42c6-ba17-96fc3a0f49a6.dmp: The system cannot find the path specified. (0x3)
+[0430/024905.088:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[0430/050618.335:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0430/050618.336:ERROR:exception_snapshot_win.cc(98)] thread ID 7908 not found in process
+[0430/050618.336:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: An attempt was made to access an exiting process. (0xc000010a)
+[0430/070305.035:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0430/070305.037:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0430/070305.037:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0430/070305.037:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0430/070305.037:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0430/070305.037:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0430/070305.037:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0430/070305.037:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0430/070305.037:ERROR:exception_snapshot_win.cc(98)] thread ID 56628 not found in process
+[0501/004643.873:ERROR:file_io_win.cc(161)] CreateFile C:\Users\mauguzun\AppData\Local\Temp\scoped_dir8676_23719\Crashpad\settings.dat: The system cannot find the file specified. (0x2)
+[0501/004643.885:ERROR:file_io_win.cc(170)] CreateFile C:\Users\mauguzun\AppData\Local\Temp\scoped_dir8676_23719\Crashpad\reports\fed98813-f5ec-4abb-9d72-32f54336e47b.dmp: The system cannot find the path specified. (0x3)
+[0501/004643.885:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[0501/013543.323:ERROR:file_io_win.cc(161)] CreateFile C:\Users\mauguzun\AppData\Local\Temp\scoped_dir18332_13366\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0501/013543.325:ERROR:file_io_win.cc(170)] CreateFile C:\Users\mauguzun\AppData\Local\Temp\scoped_dir18332_13366\Crashpad\reports\3d8ead1a-39a2-4f5e-9b0a-7984da418f6e.dmp: The system cannot find the path specified. (0x3)
+[0501/013543.325:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[0501/014028.869:ERROR:process_info.cc(329)] VirtualQueryEx: Access is denied. (0x5)
+[0501/014028.869:ERROR:process_info.cc(550)] ReadMemoryInfo failed
+[0501/014028.869:ERROR:process_memory_win.cc(39)] Failed to initialize ProcessInfo.
+[0501/014028.869:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: An attempt was made to access an exiting process. (0xc000010a)
+[0501/075745.203:ERROR:file_io_win.cc(161)] CreateFile C:\Users\mauguzun\AppData\Local\Temp\scoped_dir14436_25158\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0501/075745.205:ERROR:file_io_win.cc(170)] CreateFile C:\Users\mauguzun\AppData\Local\Temp\scoped_dir14436_25158\Crashpad\reports\6a3b9c90-835d-45b8-b483-28b6e186ad7a.dmp: The system cannot find the path specified. (0x3)
+[0501/075745.205:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[0501/190644.914:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0501/190644.914:ERROR:exception_snapshot_win.cc(98)] thread ID 8528 not found in process
+[0501/190645.092:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0501/190645.092:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0501/190645.092:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0501/190645.092:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0501/190645.092:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0501/190645.092:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0501/190645.092:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0501/190645.092:ERROR:exception_snapshot_win.cc(98)] thread ID 20200 not found in process
+[0501/190645.227:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0501/190645.227:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0501/190645.227:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0501/190645.227:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0501/190645.227:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0501/190645.227:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0501/190645.227:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0501/190645.227:ERROR:exception_snapshot_win.cc(98)] thread ID 25936 not found in process
+[0501/190645.262:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0501/190645.263:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0501/190645.263:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0501/190645.263:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0501/190645.263:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0501/190645.264:ERROR:exception_snapshot_win.cc(98)] thread ID 444 not found in process
+[0501/190645.338:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0501/190645.338:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0501/190645.338:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0501/190645.338:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0501/190645.338:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0501/190645.338:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0501/190645.338:ERROR:exception_snapshot_win.cc(98)] thread ID 12264 not found in process
+[0501/190645.609:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0501/190645.610:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0501/190645.610:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0501/190645.610:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0501/190645.610:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0501/190645.610:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0501/190645.610:ERROR:exception_snapshot_win.cc(98)] thread ID 10636 not found in process
+[0501/190645.873:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0501/190645.874:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0501/190645.874:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0501/190645.874:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0501/190645.875:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0501/190645.875:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0501/190645.875:ERROR:exception_snapshot_win.cc(98)] thread ID 21468 not found in process
+[0501/190646.213:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0501/190646.213:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0501/190646.213:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0501/190646.213:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0501/190646.213:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0501/190646.213:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0501/190646.213:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0501/190646.213:ERROR:exception_snapshot_win.cc(98)] thread ID 26636 not found in process
+[0501/214556.701:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0501/214556.710:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0501/214556.710:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0501/214556.711:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0501/214556.711:ERROR:exception_snapshot_win.cc(98)] thread ID 23596 not found in process
+[0501/222425.964:ERROR:file_io_win.cc(161)] CreateFile C:\Users\mauguzun\AppData\Local\Temp\scoped_dir18720_5885\Crashpad\settings.dat: The system cannot find the file specified. (0x2)
+[0501/224422.465:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0501/224422.467:ERROR:exception_snapshot_win.cc(98)] thread ID 13644 not found in process
