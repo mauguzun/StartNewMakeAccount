@@ -13,7 +13,7 @@ namespace StartNewMakeAccount.Models.Email
         {
             Random random = new Random();
             string[] emails = File.ReadAllLines("gmail.txt");
-            return $"{emails[random.Next(0, emails.Length)]}+{prettyName}{random.Next(0, 10).ToString()}@gmail.com";
+            return $"{emails[random.Next(0, emails.Length)]}+{prettyName}{random.Next(777, 112341234).ToString()}@gmail.com";
         }
     }
 }

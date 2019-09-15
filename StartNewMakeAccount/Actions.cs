@@ -37,7 +37,7 @@ namespace StartNewMakeAccount
         public string path = "data";
         protected string[] name;
 
-        protected string password = $"trance{DateTime.Now.ToString("yyyyMMdd").ToString()}";
+        protected string password = $"trance_333";
 
         public Steps(ChromeDriver driver, DataProvider emailProvider)
         {
@@ -99,7 +99,7 @@ namespace StartNewMakeAccount
                 driver.Manage().Timeouts().ImplicitWait = new TimeSpan(0, 0, 55);
                 driver.FindElementByCssSelector("button.red").Click();
 
-                File.AppendAllText( path +"/" + DateTime.Now.ToString("yyyyMMdd") + ".txt", $"{email}:{password}{Environment.NewLine}");
+                File.AppendAllText(path + "/" + DateTime.Now.ToString("yyyyMMdd") + ".txt", $"{email}:{password}{Environment.NewLine}");
 
                 return true;
             }
@@ -166,10 +166,11 @@ namespace StartNewMakeAccount
                 {
                     var x = driver.FindElementsByCssSelector("label[for='female']");
                     x[0].Click();
-                    gender = true; return;
+                    gender = true;
+                    return;
                 }
                 catch { return; }
-              
+
 
             }
 
@@ -179,10 +180,19 @@ namespace StartNewMakeAccount
                 try
                 {
                     driver.FindElementByCssSelector(".NuxContainer__NuxStepContainer button").Click();
-                    country = true; return;
+                    country = true;
+                    return;
                 }
-                catch { return; }
-               
+                catch { }
+
+                try
+                {
+                    driver.FindElementByCssSelector("div[data-test-id=nux-locale-country-next-btn]").Click();
+                    country = true;
+                    return;
+                }
+                catch { }
+
             }
 
             if (!country && driver.FindElementByCssSelector(".NuxContainer__NuxStepContainer button") != null)
@@ -198,55 +208,55 @@ namespace StartNewMakeAccount
             {
 
                 int result = 0;
-                try
+
+                Save();
+                var cards = driver.FindElementsByCssSelector(".NuxInterest");
+                for (int i = 0; i < 100; i++)
                 {
-                    var cards = driver.FindElementsByCssSelector(".NuxInterest");
-                    for (int i = 0; i < 100; i++)
+
+                    if (result > 5)
                     {
-
-                        if (result > 5)
+                        var button = driver.FindElementsByCssSelector("[data-test-id='nux-picker-done-btn'] button");
+                        if (button.Count > 0)
                         {
-                            var button = driver.FindElementsByCssSelector(".NuxPickerFooter button");
-                            if (button.Count > 0)
-                            {
-                                button[0].Click();
-                                card = true;
-                                break;
-                            }
+                            button[0].Click();
 
+                            card = true;
+                            break;
                         }
 
+                    }
+
+
+                 
                         try
                         {
-                            if (cards[i].Enabled && cards[i].Displayed)
-                            {
-                                OpenQA.Selenium.Interactions.Actions action = new OpenQA.Selenium.Interactions.Actions(driver);
-                                action.MoveToElement(cards[i]).DoubleClick().Build().Perform();
-                                //   WebElement we = webdriver.findElement(By.xpath("html/body/div[13]/ul/li[4]/a"));
-                                //    action.moveToElement(we).moveToElement(webdriver.findElement(By.xpath("/expression-here"))).click().build().perform();
-                                //}
-                                //cards[i].Click();
-                                result++;
-                            }
-                            else
-                            {
-                                Console.WriteLine("not possible");
-                            }
-                             return;
+                            OpenQA.Selenium.Interactions.Actions action = new OpenQA.Selenium.Interactions.Actions(driver);
+                            // action.MoveToElement(cards[i]).DoubleClick().Build().Perform();
+                            action.MoveToElement(cards[i]).DoubleClick().Build().Perform();
+                            //   WebElement we = webdriver.findElement(By.xpath("html/body/div[13]/ul/li[4]/a"));
+                            //    action.moveToElement(we).moveToElement(webdriver.findElement(By.xpath("/expression-here"))).click().build().perform();
+                            //}
+                            //cards[i].Click();
+                            result++;
                         }
                         catch (Exception ex)
                         {
                             Console.WriteLine(ex.Message);
-                            cards = driver.FindElementsByCssSelector(".NuxInterest");
-                            return;
+                             cards = driver.FindElementsByCssSelector(".NuxInterest");
+                            //return;
                         }
-                       
-                    }
-
+                
+                    
+                    //      return;
                 }
-                catch (Exception ex) { Console.WriteLine(ex.Message); }
+
 
             }
+
+
+
+
 
             if (!scip && card && driver.FindElementsByCssSelector(".NuxExtensionUpsell__optionalSkip").Count != 0)
             {
@@ -314,7 +324,7 @@ namespace StartNewMakeAccount
 
                     driver.Url = "https://pinterest.com/settings";
 
-                   
+
                 }
                 catch
                 {
@@ -326,7 +336,7 @@ namespace StartNewMakeAccount
             if (url && !settings)
             {
 
-                Save();
+
                 try
                 {
                     for (int i = 0; i < 50; i++)
@@ -353,9 +363,9 @@ namespace StartNewMakeAccount
 
                     //malmopianoilianaruby
                     SaveSettings();
-                 
+
                     settings = true;
-                    return;
+
                     //$$("input[type=file]")
                     Thread.Sleep(new TimeSpan(0, 0, 5));
 
@@ -458,36 +468,36 @@ namespace StartNewMakeAccount
             var xs = driver.Manage().Cookies.GetCookieNamed("_auth");
 
 
-          
-                var cookies = driver.Manage().Cookies.AllCookies;
 
-                List<DCookie> listDc = new List<DCookie>();
-                foreach (OpenQA.Selenium.Cookie cookie in cookies)
-                {
-                    //_auth=1
-                    var dCookie = new DCookie();
-                    dCookie.Domain = cookie.Domain;
-                    dCookie.Expiry = cookie.Expiry;
-                    dCookie.Name = cookie.Name;
-                    dCookie.Path = cookie.Path;
-                    dCookie.Value = cookie.Value;
-                    dCookie.Secure = cookie.Secure;
+            var cookies = driver.Manage().Cookies.AllCookies;
 
-                    listDc.Add(dCookie);
-                }
-                XmlSerializer ser = new XmlSerializer(typeof(List<DCookie>),
-                new XmlRootAttribute("list"));
+            List<DCookie> listDc = new List<DCookie>();
+            foreach (OpenQA.Selenium.Cookie cookie in cookies)
+            {
+                //_auth=1
+                var dCookie = new DCookie();
+                dCookie.Domain = cookie.Domain;
+                dCookie.Expiry = cookie.Expiry;
+                dCookie.Name = cookie.Name;
+                dCookie.Path = cookie.Path;
+                dCookie.Value = cookie.Value;
+                dCookie.Secure = cookie.Secure;
 
-                char[] invalidFileNameChars = Path.GetInvalidFileNameChars();
+                listDc.Add(dCookie);
+            }
+            XmlSerializer ser = new XmlSerializer(typeof(List<DCookie>),
+            new XmlRootAttribute("list"));
 
-                // Builds a string out of valid chars and an _ for invalid ones
-                var validFilename = new string(email.Select(ch => invalidFileNameChars.Contains(ch) ? '_' : ch).ToArray());
+            char[] invalidFileNameChars = Path.GetInvalidFileNameChars();
 
-                using (FileStream fs = new FileStream(path + "/" + validFilename, FileMode.Create))
-                {
-                    ser.Serialize(fs, listDc);
-                }
-           
+            // Builds a string out of valid chars and an _ for invalid ones
+            var validFilename = new string(email.Select(ch => invalidFileNameChars.Contains(ch) ? '_' : ch).ToArray());
+            validFilename += ".xml";
+            using (FileStream fs = new FileStream(path + "/" + validFilename, FileMode.Create))
+            {
+                ser.Serialize(fs, listDc);
+            }
+
         }
 
         private void Load(string filename)
