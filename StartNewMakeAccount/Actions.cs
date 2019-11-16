@@ -224,7 +224,14 @@ namespace StartNewMakeAccount
                             card = true;
                             break;
                         }
+                         button = driver.FindElementsByCssSelector("button[type='submit']");
+                        if (button.Count > 0)
+                        {
+                            button[0].Click();
 
+                            card = true;
+                            break;
+                        }
                     }
 
 

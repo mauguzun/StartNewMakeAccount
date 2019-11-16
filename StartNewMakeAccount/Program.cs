@@ -55,11 +55,17 @@ namespace StartNewMakeAccount
                 option.AddArgument("no-sandbox");
 
                 Console.Title = currentProxy;
+                var driverService = ChromeDriverService.CreateDefaultService();
+                driverService.HideCommandPromptWindow = true;
 
-                if (show)
-                    option.AddArgument("--window-position=-32000,-32000");
+                if (!show)
+                {
+                    option.AddArguments("headless");
+                }
+                   
 
-                ChromeDriver driver = new ChromeDriver(option);
+                ChromeDriver driver = new ChromeDriver(driverService, option);
+               
 
                 // driver.Manage().Timeouts().PageLoad = new TimeSpan(0, 0, 0);
                 driver.Manage().Timeouts().ImplicitWait = new TimeSpan(0, 0, 30);
