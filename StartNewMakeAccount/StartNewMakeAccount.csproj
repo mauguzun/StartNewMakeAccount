@@ -60,6 +60,7 @@
     <Compile Include="Actions.cs" />
     <Compile Include="DCookie.cs" />
     <Compile Include="ImageRepository.cs" />
+    <Compile Include="MakeGoogle.cs" />
     <Compile Include="Models\DataProvider.cs" />
     <Compile Include="Models\Email\GenerateEmail.cs" />
     <Compile Include="Models\Email\ReadEmailFromList.cs" />

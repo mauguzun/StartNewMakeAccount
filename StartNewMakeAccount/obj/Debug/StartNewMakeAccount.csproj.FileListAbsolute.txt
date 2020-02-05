@@ -28,7 +28,6 @@ C:\StartNewMakeAccount\StartNewMakeAccount\bin\Debug\WebDriver.Support.dll
 C:\StartNewMakeAccount\StartNewMakeAccount\bin\Debug\Newtonsoft.Json.xml
 C:\StartNewMakeAccount\StartNewMakeAccount\bin\Debug\WebDriver.xml
 C:\StartNewMakeAccount\StartNewMakeAccount\bin\Debug\WebDriver.Support.xml
-C:\StartNewMakeAccount\StartNewMakeAccount\obj\Debug\StartNewMakeAccount.csproj.CoreCompileInputs.cache
 C:\StartNewMakeAccount\StartNewMakeAccount\obj\Debug\StartNewMakeAccount.csproj.CopyComplete
 C:\StartNewMakeAccount\StartNewMakeAccount\obj\Debug\StartNewMakeAccount.exe
 C:\StartNewMakeAccount\StartNewMakeAccount\obj\Debug\StartNewMakeAccount.pdb

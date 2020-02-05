@@ -2239,3 +2239,9 @@
 [1113/053718.902:ERROR:filesystem_win.cc(148)] DeleteFile C:\Users\mauguzun\AppData\Local\Temp\scoped_dir97912_15738\Crashpad\reports\772307ed-110c-4770-afb4-86d40d2958ce.dmp: The process cannot access the file because it is being used by another process. (0x20)
 [1113/054609.857:ERROR:process_info.cc(359)] UncheckedAllocate
 [1114/154538.384:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[1116/222614.938:ERROR:file_io_win.cc(161)] CreateFile C:\Users\mauguzun\AppData\Local\Temp\scoped_dir1928_2582\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[1116/222615.390:ERROR:file_io_win.cc(170)] CreateFile C:\Users\mauguzun\AppData\Local\Temp\scoped_dir1928_2582\Crashpad\reports\41ec424a-6223-4cf1-85de-83b7c7086f03.dmp: The system cannot find the path specified. (0x3)
+[1116/222615.390:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[1117/125237.661:ERROR:file_io_win.cc(161)] CreateFile C:\Users\mauguzun\AppData\Local\Temp\scoped_dir20028_27268\Crashpad\settings.dat: The system cannot find the file specified. (0x2)
+[1203/210553.296:ERROR:file_io_win.cc(170)] CreateFile C:\Users\mauguzun\AppData\Local\Temp\scoped_dir17268_19390\Crashpad\reports\230f8305-fa57-4fab-b092-f4a9ec201d1a.dmp: The system cannot find the path specified. (0x3)
+[1203/210553.301:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed

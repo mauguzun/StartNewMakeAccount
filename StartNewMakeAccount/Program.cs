@@ -16,6 +16,7 @@ namespace StartNewMakeAccount
     class Program
     {
         static bool show = false;
+        static bool google = false;
 
         static string currentProxy;
         
@@ -34,9 +35,15 @@ namespace StartNewMakeAccount
             //  WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(70));
             int i = 0;
             Console.WriteLine("Show ?");
-            if (Console.ReadLine() != "y")
+            if (Console.ReadLine() == "y")
                 show = true;
-
+            if (show)
+            {
+                Console.WriteLine("Good ?");
+                if (Console.ReadLine() == "y")
+                    google = true;
+            }
+           
             while (true)
             {
 
@@ -78,6 +85,14 @@ namespace StartNewMakeAccount
                 {
                     while (ac.Settings() != true && actions < 7)
                     {
+
+                        if (google && actions == 2)
+                        {
+                            MakeGoogle g = new MakeGoogle();
+                            g.Driver = driver;
+                            g.MakePin(currentProxy);
+                        }
+
                         try
                         {
                             ac.CheckPage();
