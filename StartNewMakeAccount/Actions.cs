@@ -160,7 +160,7 @@ namespace StartNewMakeAccount
             //    }
             //    //Female
             //}
-            if (!gender && driver.FindElementsByCssSelector("label[for='female']").Count == 1)
+            if (!gender && driver.FindElementsByCssSelector("label[for='female']").Count >0 )
             {
                 try
                 {

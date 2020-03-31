@@ -32,3 +32,4 @@ C:\StartNewMakeAccount\StartNewMakeAccount\obj\Debug\StartNewMakeAccount.csproj.
 C:\StartNewMakeAccount\StartNewMakeAccount\obj\Debug\StartNewMakeAccount.exe
 C:\StartNewMakeAccount\StartNewMakeAccount\obj\Debug\StartNewMakeAccount.pdb
 C:\StartNewMakeAccount\StartNewMakeAccount\obj\Debug\StartNewMakeAccount.csprojAssemblyReference.cache
+C:\StartNewMakeAccount\StartNewMakeAccount\obj\Debug\StartNewMakeAccount.csproj.CoreCompileInputs.cache

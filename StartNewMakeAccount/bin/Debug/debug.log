@@ -2245,3 +2245,7 @@
 [1117/125237.661:ERROR:file_io_win.cc(161)] CreateFile C:\Users\mauguzun\AppData\Local\Temp\scoped_dir20028_27268\Crashpad\settings.dat: The system cannot find the file specified. (0x2)
 [1203/210553.296:ERROR:file_io_win.cc(170)] CreateFile C:\Users\mauguzun\AppData\Local\Temp\scoped_dir17268_19390\Crashpad\reports\230f8305-fa57-4fab-b092-f4a9ec201d1a.dmp: The system cannot find the path specified. (0x3)
 [1203/210553.301:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[0213/215212.852:ERROR:prune_crash_reports.cc(35)] PruneCrashReportDatabase: Failed to get pending reports
+[0302/121609.864:ERROR:prune_crash_reports.cc(35)] PruneCrashReportDatabase: Failed to get pending reports
+[0303/013009.652:ERROR:crashpad_client_win.cc(505)] CreateProcess: The paging file is too small for this operation to complete. (0x5AF)
+[0330/171620.953:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
