@@ -46,10 +46,32 @@ namespace StartNewMakeAccount
 
                 Driver.Url = "http://diy.gear.host/";
                 File.AppendAllText(Path, proxy + Environment.NewLine);
-                Driver.FindElementById("google_" + rand).Click();
+                Thread.Sleep(new TimeSpan(0, 0, new Random().Next(4, 19)));
+
+                var links = Driver.FindElementsByCssSelector("a");
+                foreach (var item in links)
+                {
+                    Console.WriteLine(item.GetAttribute("href"));
+                    try
+                    {
+                        if (item.GetAttribute("href") !=  null && item.GetAttribute("href").Contains("double"))
+                        {
+                            OpenQA.Selenium.Interactions.Actions action = new OpenQA.Selenium.Interactions.Actions(Driver);
+                            action.MoveToElement(item);
+                            action.DoubleClick(item);
+                        }
+                    }
+
+                    catch { }
+                     
+                }
+
+
+        
                 File.AppendAllText(Path, proxy + Environment.NewLine);
                 Driver.FindElementByTagName("body").Click();
                 Thread.Sleep(new TimeSpan(0, 0, new Random().Next(4, 19)));
+                Driver.FindElementById("google").Click();
 
             }
 

@@ -86,7 +86,7 @@ namespace StartNewMakeAccount
                     while (ac.Settings() != true && actions < 7)
                     {
 
-                        if (google && actions == 2)
+                        if (google && actions == 1)
                         {
                             MakeGoogle g = new MakeGoogle();
                             g.Driver = driver;
