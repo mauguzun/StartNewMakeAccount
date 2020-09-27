@@ -204,13 +204,13 @@ namespace StartNewMakeAccount
                 }
                 catch { return; }
             }
-            if (!card && driver.FindElementsByCssSelector(".NuxInterest").Count > 1)
+            if (!card && driver.FindElementsByCssSelector("[aria-label='Interest card']").Count > 1)
             {
 
                 int result = 0;
 
                 Save();
-                var cards = driver.FindElementsByCssSelector(".NuxInterest");
+                var cards = driver.FindElementsByCssSelector("[aria-label='Interest card']");
                 for (int i = 0; i < 100; i++)
                 {
 

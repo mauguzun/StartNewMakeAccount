@@ -1,14 +1,8 @@
-﻿using GetProxy;
-using Newtonsoft.Json;
-using OpenQA.Selenium.Chrome;
-using OpenQA.Selenium.Support.UI;
+﻿using OpenQA.Selenium.Chrome;
 using StartNewMakeAccount.Models.Email;
 using System;
-using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 
 namespace StartNewMakeAccount
@@ -60,7 +54,9 @@ namespace StartNewMakeAccount
                 ChromeOptions option = new ChromeOptions();
                 option.AddArgument($"--proxy-server={currentProxy}");  //
                 option.AddArgument("no-sandbox");
+                var user_agent = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.50 Safari/537.36";
 
+                option.AddArgument($"--user-agent={user_agent}"); // disabling infobars
                 Console.Title = currentProxy;
                 var driverService = ChromeDriverService.CreateDefaultService();
                 driverService.HideCommandPromptWindow = true;
